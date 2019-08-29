@@ -1,0 +1,68 @@
+.main{
+ 	flex:3;
+ 	display: flex;
+  flex-direction: row;
+ 	flex-wrap:wrap;
+
+}
+
+.main section {
+ 	max-width: 9rem;
+ 	margin-right: 1rem;
+ 	margin-bottom: 1rem;
+ 	padding-bottom: 0.5rem;
+ 	border: none;
+ 	border-radius: 2rem;
+ 	background-color: #1a1a1a;
+}
+.main ul{
+ 	list-style-type: none;
+}
+
+.main ul li{
+
+}
+.main ul li img{
+ 	width: 100%;
+ 	height: auto;
+}
+
+
+.fa{
+	font-size: 100px;
+	cursor: pointer;
+	/* The user-select property specifies
+	whether the text of an element can be
+	selected. https://www.w3schools.com/cssref/css3_pr_user-select.asp*/
+	user-select:none;
+	margin-top: .3rem;
+}
+
+#like{
+  font-size: 25px;
+ 	float:left;
+ 	padding-left: 1.6rem;
+}
+
+#dislike{
+  font-size: 25px;
+ 	float:right;
+ 	padding-right: 1.6rem;
+}
+
+
+#like:hover{
+  color:#ffc600;
+}
+
+#like:active{
+  font-size: 1.5rem;
+}
+
+#dislike:hover{
+  color:darkred;
+}
+
+#dislike:active{
+  font-size: 1.5rem;
+}

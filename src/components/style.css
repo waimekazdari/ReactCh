@@ -1,0 +1,20 @@
+a{
+ color:#cccccc;
+ text-decoration: none;
+}
+a:hover{
+ color: #990000;
+}
+
+h2{
+ text-decoration: underline #990000;
+}
+.container{
+ 	margin: 0 auto;
+ 	padding: 0 3rem;
+ 	max-width: 850px;
+ 	background-color: #0d0d0d;
+ 	//box-shadow: 10px 10px 20px #0d0d0d;
+ 	display: flex;
+ 	flex-direction: column;
+}

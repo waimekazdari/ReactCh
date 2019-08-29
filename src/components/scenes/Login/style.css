@@ -1,0 +1,81 @@
+.form-popup{
+   display: none;
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   z-index: 9;
+   background-color: rgba(191, 191, 191, 0.4);
+   box-shadow: 10px 10px 20px #1a1a1a;
+   border-radius: 4rem;
+}
+.form-container{
+ 	width: 300px;
+  margin: 3rem 5rem;
+	padding: 2rem;
+	background-color:#1a1a1a;
+	border: 2px solid none;
+	border-radius: 1rem;
+ }
+
+/* Full-width input fields */
+ .form-container input[type=text], .form-container input[type=password] {
+   width: 100%;
+   padding-left:20%;
+   padding: 12px 15px;
+   margin: 5px 0 22px 0;
+   border: none;
+   text-align: center;
+   background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.form-container .btn {
+  background-color: #404040;
+  color: #d9d9d9;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  outline: none;
+  opacity: 0.7;
+}
+
+.form-container .cancel{
+	background-color: inherit;
+	color: #999999;
+	font-weight: bold;
+	float: right;
+	border: none;
+	margin-right: -2rem;
+	margin-top: -2rem;
+	padding: 0.2rem;
+}
+
+.form-container .cancel:hover{
+	background-color: darkred;
+	border: 1px solid darkred;
+	color:#f2f2f2;
+	border-radius: 2px;
+}
+.form-container .login:hover {
+  //background-color: #ffc600;
+  font-weight: bold;
+  //font-size: .9rem;
+  opacity: 1;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover{
+  opacity: 1;
+}
+
+.form-container h1{
+	margin-bottom: 1rem;
+}

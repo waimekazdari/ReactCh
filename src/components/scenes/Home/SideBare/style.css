@@ -1,0 +1,18 @@
+.sidebare{
+ 	flex:1;
+ 	background-color: #1a1a1a;
+ 	padding:1rem;
+ 	margin-right: 3rem;
+ 	/* #990000 */
+ 	border-top: 2px solid #ffc600;
+ }
+
+.sidebare ul{
+ 	font-size: .75rem;
+ 	margin: .50rem 0;
+
+ }
+
+.sidebare ul > li {
+ 	padding: .30rem 0;
+ }
